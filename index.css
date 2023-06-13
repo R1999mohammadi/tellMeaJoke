@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-    background-color: #262626;
+    background-color: #b8b95f;
     color: #fff;
     word-spacing: 2rem;
     border: 2px solid #000;
@@ -49,9 +49,10 @@ button {
     margin-bottom: 10px;
     border: 2px solid #fff;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: blue;
     font-family: monospace;
+    color:white;
 }
 button:hover {
-    background-color: lightseagreen
+    background-color: lightskyblue;
 }

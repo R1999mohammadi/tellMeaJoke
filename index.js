@@ -10,4 +10,13 @@ const jokes = [
 
 ]
 
-let joke = document.querySelector('.joke')
+let jokeButton = document.querySelector('#joke');
+jokeButton;
+let text = document.querySelector(".textArea");
+
+
+jokeButton.addEventListener('click', () => {
+    let randomJoke = Math.floor(Math.random()* jokes.length);
+    text.textContent = jokes[randomJoke];
+});
+
